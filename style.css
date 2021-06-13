@@ -1,0 +1,479 @@
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  width: 100%;
+  margin: auto;
+  align-content: center;
+  background-color: #2c292f;
+  
+}
+
+.topnav {
+  overflow: hidden;
+  position: relative;
+  width: auto;
+  height: auto;
+  background-color: #2c292f;
+  
+}
+
+.topnav a {
+  font-weight: bold;
+  float: left;
+  display: block;
+  color: #f7f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: rgb(79, 219, 137);
+  color: black;
+}
+
+.topnav a.active {
+  background-color: rgb(79, 219, 137);
+  color: white;
+}
+
+.topnav .icon {
+  display: none;
+}
+.webname{
+	color: white;
+	font-weight: bold;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 37px;
+}
+
+@media screen and (max-width: 600px) {
+  .topnav a:not(:first-child) {display: none;}
+  .topnav a.icon {
+    float: right;
+    display: inline;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+   
+  }
+  .topnav {
+  overflow: hidden;
+  width: auto;
+  height: auto;
+  position: relative;
+  
+  background-color: #2c292f;
+}
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-image: url('images/bi.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  width: 100%;
+  margin: auto;
+  align-content: center;
+  
+}
+}
+h1{
+  text-align: center;
+  color: #92999f;
+}
+
+img {
+  border: #333;
+  vertical-align: middle;}
+.mob{
+  float: left;
+  height: 100px;
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 600px) {
+  .mob{
+  float: none;
+  width: 100%;
+  height: auto;
+}}
+
+
+
+@import url('http://fonts.googleapis.com/css?family=Open+Sans:400,700');
+
+*{
+	padding:0;
+	margin:0;
+}
+
+
+
+/* The footer is fixed to the bottom of the page */
+
+footer{
+	position: fixed;
+	bottom: 0;
+}
+
+@media (max-height:800px){
+	footer { position: static; }
+	header { padding-top:40px; }
+}
+
+
+.footer-distributed{
+	background-color: #2c292f;
+	box-sizing: border-box;
+	width: 100%;
+	text-align: left;
+	font: bold 16px sans-serif;
+	padding: 20px 20px 20px 20px;
+
+}
+
+.footer-distributed .footer-left,
+.footer-distributed .footer-center,
+.footer-distributed .footer-right{
+	display: inline-block;
+	vertical-align: top;
+}
+
+/* Footer left */
+
+.footer-distributed .footer-left{
+	width: 30%;
+}
+
+.footer-distributed h3{
+	color:  #ffffff;
+	font: normal 36px 'Cookie', cursive;
+	margin: 0;
+}
+
+/* The company logo */
+
+.footer-distributed .footer-left img{
+	width: 70%;
+}
+
+.footer-distributed h3 span{
+	color:  #e0ac1c;
+}
+
+/* Footer links */
+
+.footer-distributed .footer-links{
+	color:  #ffffff;
+	margin: 20px 0 12px;
+}
+
+.footer-distributed .footer-links a{
+	display:inline-block;
+	line-height: 1.8;
+	text-decoration: none;
+	color:  inherit;
+}
+
+.footer-distributed .footer-company-name{
+	color:  #8f9296;
+	font-size: 14px;
+	font-weight: normal;
+	margin: 0;
+}
+
+/* Footer Center */
+
+.footer-distributed .footer-center{
+	width: 35%;
+}
+
+
+.footer-distributed .footer-center i{
+	background-color:  #33383b;
+	color: #ffffff;
+	font-size: 25px;
+	width: 38px;
+	height: 38px;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 42px;
+	margin: 10px 15px;
+	vertical-align: middle;
+}
+
+.footer-distributed .footer-center i.fa-envelope{
+	font-size: 17px;
+	line-height: 38px;
+}
+
+.footer-distributed .footer-center p{
+	display: inline-block;
+	color: #ffffff;
+	vertical-align: middle;
+	margin:0;
+}
+
+.footer-distributed .footer-center p span{
+	display:block;
+	font-weight: normal;
+	font-size:14px;
+	line-height:2;
+}
+
+.footer-distributed .footer-center p a{
+	color:  #e0ac1c;
+	text-decoration: none;;
+}
+
+
+/* Footer Right */
+
+.footer-distributed .footer-right{
+	width: 30%;
+}
+
+.footer-distributed .footer-company-about{
+	line-height: 20px;
+	color:  #92999f;
+	font-size: 13px;
+	font-weight: normal;
+	margin: 0;
+}
+
+.footer-distributed .footer-company-about span{
+	display: block;
+	color:  #ffffff;
+	font-size: 18px;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+
+.footer-distributed .footer-icons{
+	margin-top: 25px;
+}
+
+.footer-distributed .footer-icons a{
+	display: inline-block;
+	width: 35px;
+	height: 35px;
+	cursor: pointer;
+	background-color:  #33383b;
+	border-radius: 2px;
+
+	font-size: 20px;
+	color: #ffffff;
+	text-align: center;
+	line-height: 35px;
+
+	margin-right: 3px;
+	margin-bottom: 5px;
+}
+
+/* Here is the code for Responsive Footer */
+/* You can remove below code if you don't want Footer to be responsive */
+
+
+@media (max-width: 600px) {
+
+	.footer-distributed .footer-left,
+	.footer-distributed .footer-center,
+	.footer-distributed .footer-right{
+		display: block;
+		width: 100%;
+		margin-bottom: 40px;
+		text-align: center;
+	}
+
+	.footer-distributed .footer-center i{
+		margin-left: 0;
+	}
+
+}
+div.left{
+	width: 33.3%;
+	height: auto;
+	float: left;
+	padding-bottom: 10px;
+  }
+  
+  div.right{
+	width: 33.4%;
+	height: auto;
+	float: right;
+	padding-bottom: 10px;
+  }
+  div.in{
+	width: 95%;
+	align-content: center;
+	border-style: solid;
+	border-color: #717171;
+	height: 500px;
+	
+  }
+  img.set{
+	width: 100%;
+  }
+  @media only screen and (max-width: 600px) {
+	div.left{
+	width: 100%;
+	height: auto;
+	align-content: center;
+	float: left;
+  }
+  div.right{
+	width: 100%;
+	height: auto;
+	align-content: center;
+	float: right;
+  }
+  }
+
+
+
+  
+form {
+	padding-top: 10px;}
+	form.st{
+	margin-left: 20%;
+	margin-right: 20%;
+	}
+	
+	input[type=text], input[type=password] {
+	  width: 100%;
+	  padding: 12px 20px;
+	  margin: 8px 0;
+	  display: inline-block;
+	  
+	  box-sizing: border-box;
+	}
+	
+	button {
+	  background-color: #28882b;
+	  color: white;
+	  padding: 14px 20px;
+	  margin: 8px 0;
+	  border: none;
+	  cursor: pointer;
+	  width: 30%;
+	}
+	
+	button:hover {
+	  opacity: 0.8;
+	}
+	
+	
+	.imgcontainer {
+	  text-align: center;
+	  margin: 24px 0 12px 0;
+	}
+	
+	img.avatar {
+	  width: 40%;
+	  border-radius: 40%;
+	  border: 2px solid #555;
+	}
+	
+	.container {
+	  padding: 16px;
+	  
+	}
+	
+	
+	span.psw {
+	  float: right;
+	  padding-top: 16px;
+	}
+	
+	/* Change styles for span and cancel button on extra small screens */
+	@media screen and (max-width: 500px) {
+	  span.psw {
+		 display: block;
+		 float: none;
+	  }
+	  form.st{
+	margin-left: 10%;
+	margin-right: 10%;
+	}
+	}
+	label{
+		font-size: large;
+		color: #92999f;
+	}
+
+
+
+
+	
+input[type=text]:focus, input[type=password]:focus {
+	background-color: #ddd;
+	outline: none;
+  }
+  
+  hr {
+	border: 1px solid #f1f1f1;
+	margin-bottom: 25px;
+  }
+  
+  /* Set a style for all buttons */
+  button {
+	background-color: #4CAF50;
+	color: white;
+	padding: 14px 20px;
+	margin: 8px 0;
+	border: none;
+	cursor: pointer;
+	width: 20%;
+	opacity: 0.9;
+  }
+  
+  button:hover {
+	opacity:1;
+  }
+  
+  /* Extra styles for the cancel button */
+  .cancelbtn {
+	padding: 14px 20px;
+	background-color: #f44336;
+  }
+  
+  /* Float cancel and signup buttons and add an equal width */
+  .cancelbtn, .signupbtn {
+	float: left;
+	width: 50%;
+  }
+  
+  /* Add padding to container elements */
+  .container {
+	padding: 16px;
+  }
+  
+  /* Clear floats */
+  .clearfix::after {
+	content: "";
+	clear: both;
+	display: table;
+  }
+  
+  /* Change styles for cancel button and signup button on extra small screens */
+  @media screen and (max-width: 300px) {
+	.cancelbtn, .signupbtn {
+	   width: 100%;
+	}
+  }
